@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Säätsekkaus</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header><h1>Weatherman</h1></header>
+    <div class="cities">
+        <h2>Tarkistetut kaupungit</h2>
+        <ul id="cities"></ul>
+    </div>
+    <div class="container">
+        <div class="container2">
+            <input id="input" type="text"><button id="nappi">Tarkista</button></input>
+            <br>
+            <p>Syöttökenttään kaupunki jonka tämänhetkiset säätiedot haluat tarkistaa</p>
+        </div>
+        <div class="container3">
+            <h2 id="description"></h2>
+            <h2 id="varoitus"></h2>
+            <p>Maa: <span id="span5"></span></p>
+            <p>Kaupunki: <span id="span0"></span></p>
+            <p>Lämpötila: <span id="span1"></span></p>
+            <p>Tuntuu kuin: <span id="span2"></span></p>
+            <p>Ilmankosteus: <span id="span3"></span></p>
+            <p>Tuuli: <span id="span4"></span></p>
+        </div>
+    </div>
+    <footer><p>©Saku Penttilä 2022</p></footer>
+    <script src="js/sää.js" async defer></script>
+</body>
+</html>
